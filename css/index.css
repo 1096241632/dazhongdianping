@@ -1,0 +1,2135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #F6F2F2;
+}
+
+#box {
+  min-height: 1px;
+  overflow: hidden;
+  width: 100%;
+  background: #F6F2F2;
+  /*background:red;*/
+}
+
+/*-------------------------topNav------------------------*/
+#topNav {
+  width: 85%;
+  height: 35px;
+  margin: 0 auto;
+}
+#topNav #topNav1 {
+  float: left;
+  width: 90%;
+  height: 37px;
+  margin-left: 46%;
+}
+#topNav #topNav1 span {
+  float: left;
+  line-height: 35px;
+  color: #c7c7c7;
+  font-size: 12px;
+}
+#topNav #topNav1 .topNav1-1 {
+  float: left;
+  padding: 0 17px;
+  line-height: 37px;
+  cursor: pointer;
+  vertical-align: middle;
+  margin: 10px 0;
+  font-size: 12px;
+  color: #333;
+  margin-top: 0px;
+}
+#topNav #topNav1 .topNav1-1 a {
+  font-size: 12px;
+  color: #333;
+}
+#topNav #topNav1 .topNav1-1 a:hover {
+  color: #f65d29;
+}
+#topNav #topNav1 p {
+  float: left;
+  color: #f65d29;
+  font-size: 12px;
+  line-height: 37px;
+  padding-right: 17px;
+}
+#topNav #topNav1 p a {
+  font-size: 12px;
+  color: #f65d29;
+}
+#topNav #topNav1 .topNav1-2 {
+  position: relative;
+  float: left;
+  width: 9%;
+  line-height: 37px;
+  text-align: center;
+  cursor: pointer;
+  vertical-align: middle;
+  margin: 10px 0;
+  font-size: 12px;
+  color: #333;
+  margin-top: 0px;
+}
+#topNav #topNav1 .topNav1-2 a {
+  font-size: 12px;
+  color: #333;
+}
+#topNav #topNav1 .topNav1-2 a:hover {
+  color: #f65d29;
+}
+#topNav #topNav1 .topNav1-2:hover {
+  color: #f65d29;
+  background: #fff;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#topNav #topNav1 .topNav1-2:hover .topNav2 {
+  display: block;
+  background: #fff;
+}
+#topNav #topNav1 .topNav1-2 img {
+  position: relative;
+  top: 0;
+  left: 8px;
+  width: 10%;
+  height: 10%;
+}
+#topNav #topNav1 .topNav1-2 .topNav2 {
+  display: none;
+  position: relative;
+  top: -6px;
+  left: 0;
+  width: 100px;
+  z-index: 99999;
+}
+#topNav #topNav1 .topNav1-2 .topNav2 li {
+  padding-right: 17px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+#topNav #topNav1 .topNav1-2 .topNav2 li:hover {
+  background: #f0f0f0;
+}
+#topNav #topNav1 .topNav1-2 .topNav2 li a {
+  font-size: 12px;
+  color: #333;
+}
+#topNav #topNav1 .topNav1-2 .topNav2 li a:hover {
+  color: #f65d29;
+}
+
+/*-----------------------headerContainer---------------------*/
+#headerContainer {
+  width: 100%;
+  background: #fff;
+}
+#headerContainer #headerContainer1 {
+  top: 0;
+  width: 84%;
+  height: 93px;
+  margin: 0 auto;
+}
+#headerContainer #headerContainer1 #logo {
+  float: left;
+  width: 16%;
+  height: 53%;
+  margin-top: 22px;
+}
+#headerContainer #headerContainer1 #logo img {
+  width: 100%;
+  height: 100%;
+}
+#headerContainer #headerContainer1 #address {
+  position: relative;
+  float: left;
+  margin-left: 30px;
+  cursor: pointer;
+  background: #fff;
+  z-index: 999999;
+}
+#headerContainer #headerContainer1 #address:hover #address1 {
+  display: block;
+}
+#headerContainer #headerContainer1 #address span {
+  float: left;
+  font-size: 15px;
+  color: #333;
+  margin-right: 5px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+#headerContainer #headerContainer1 #address p {
+  float: left;
+  font-size: 15px;
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+#headerContainer #headerContainer1 #address p:hover {
+  color: #f63;
+}
+#headerContainer #headerContainer1 #address #address1 {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 1026%;
+  background: #fff;
+  height: 400px;
+  z-index: 999999;
+  border: 1px solid #ccc;
+  border-top: 0px;
+  display: none;
+}
+#headerContainer #headerContainer1 #address #address1 .address2 {
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  border-bottom: 1px solid #ccc;
+}
+#headerContainer #headerContainer1 #address #address1 .address2 h4 {
+  float: left;
+  font-size: 12px;
+  color: #ccc;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+#headerContainer #headerContainer1 #address #address1 .address2 li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 33px;
+  margin-top: 5px;
+}
+#headerContainer #headerContainer1 #address #address1 .address2 li a {
+  font-size: 12px;
+  color: #333;
+}
+#headerContainer #headerContainer1 #address #address1 .address2 li a:hover {
+  color: #f63;
+}
+#headerContainer #headerContainer1 #address #address1 .address3 {
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  /*border-bottom: 1px solid #ccc;*/
+}
+#headerContainer #headerContainer1 #address #address1 .address3 h4 {
+  float: left;
+  font-size: 12px;
+  color: #ccc;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+#headerContainer #headerContainer1 #address #address1 .address3 li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 33px;
+  margin-top: 5px;
+}
+#headerContainer #headerContainer1 #address #address1 .address3 li a {
+  font-size: 12px;
+  color: #333;
+}
+#headerContainer #headerContainer1 #address #address1 .address3 li a:hover {
+  color: #f63;
+}
+#headerContainer #headerContainer1 #search {
+  float: left;
+  width: 47%;
+  height: 75px;
+  margin-left: 100px;
+  margin-top: 28px;
+}
+#headerContainer #headerContainer1 #search #search0 {
+  height: 36px;
+  float: left;
+  border: 2px solid #f63;
+  width: 100%;
+}
+#headerContainer #headerContainer1 #search #search0 input {
+  float: left;
+  width: 75%;
+  height: 36px;
+  color: #ccc;
+  font-size: 12px;
+  border: none;
+  padding-left: 10px;
+}
+#headerContainer #headerContainer1 #search #search0 #search1 {
+  cursor: pointer;
+  float: right;
+  width: 23%;
+  height: 36px;
+  font-size: 16px;
+  color: #fff;
+  background: #f63;
+  line-height: 36px;
+  text-align: center;
+}
+#headerContainer #headerContainer1 #search #search2 {
+  float: left;
+  margin-top: 5px;
+}
+#headerContainer #headerContainer1 #search #search2 h4 {
+  float: left;
+  font-size: 12px;
+  color: #ccc;
+}
+#headerContainer #headerContainer1 #search #search2 li {
+  float: left;
+  font-size: 12px;
+  color: #999;
+  margin-left: 10px;
+}
+#headerContainer #headerContainer1 #search #search2 li a {
+  font-size: 12px;
+  color: #999;
+}
+#headerContainer #headerContainer1 #search #search2 li a:hover {
+  color: #f65d29;
+}
+#headerContainer #classification {
+  width: 85%;
+  height: 45px;
+  margin: 0 auto;
+}
+#headerContainer #classification #classification1 {
+  /*float: left;*/
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 20%;
+}
+#headerContainer #classification #classification1 h3 {
+  float: left;
+  width: 88%;
+  height: 35px;
+  color: #fff;
+  background: #ff6b37;
+  font-size: 15px;
+  line-height: 35px;
+  text-align: center;
+}
+#headerContainer #classification #classification1 #classification1-1 {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 88%;
+  height: 520px;
+  background: #383131;
+}
+#headerContainer #classification #classification1 #classification1-1 #ef {
+  width: 100%;
+  height: 5px;
+}
+#headerContainer #classification #classification1 #classification1-1 li {
+  width: 100%;
+  height: 32px;
+}
+#headerContainer #classification #classification1 #classification1-1 li:hover {
+  background: #4A4949;
+}
+#headerContainer #classification #classification1 #classification1-1 li:hover .tabulation {
+  display: block;
+}
+#headerContainer #classification #classification1 #classification1-1 li h4 {
+  float: left;
+  margin-left: 20px;
+}
+#headerContainer #classification #classification1 #classification1-1 li h4 a {
+  font-size: 15px;
+  color: #fff;
+  line-height: 32px;
+}
+#headerContainer #classification #classification1 #classification1-1 li h4 a:hover {
+  color: #f63;
+}
+#headerContainer #classification #classification1 #classification1-1 li p {
+  float: left;
+  margin-left: 15px;
+}
+#headerContainer #classification #classification1 #classification1-1 li p a {
+  font-size: 12px;
+  color: #ccc;
+  line-height: 32px;
+}
+#headerContainer #classification #classification1 #classification1-1 li p a:hover {
+  color: #f63;
+}
+#headerContainer #classification #classification1 #classification1-1 li span {
+  float: left;
+  margin-left: 15px;
+}
+#headerContainer #classification #classification1 #classification1-1 li span a {
+  font-size: 12px;
+  color: #ccc;
+  line-height: 32px;
+}
+#headerContainer #classification #classification1 #classification1-1 li span a:hover {
+  color: #f63;
+}
+#headerContainer #classification #classification1 #classification1-1 li .tabulation {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  height: 516px;
+  width: 178%;
+  border-top: 2px solid #f63;
+  border-bottom: 2px solid #f63;
+  border-right: 2px solid #f63;
+  z-index: 9999;
+  background: #fff;
+  display: none;
+}
+#headerContainer #classification #classification1 #classification1-1 li .tabulation .tabulation0 {
+  float: left;
+}
+#headerContainer #classification #classification1 #classification1-1 li .tabulation .tabulation0 .tabulation1 {
+  float: left;
+  width: 327px;
+  height: 51px;
+  border-bottom: 1px solid #eee;
+  margin-left: 30px;
+}
+#headerContainer #classification #classification1 #classification1-1 li .tabulation .tabulation0 .tabulation1 p {
+  float: left;
+  font-size: 15px;
+  color: #333;
+  margin-top: 20px;
+  margin-left: 0;
+}
+#headerContainer #classification #classification1 #classification1-1 li .tabulation .tabulation0 .tabulation1 span {
+  float: right;
+  margin-top: 18px;
+}
+#headerContainer #classification #classification1 #classification1-1 li .tabulation .tabulation0 .tabulation1 span a {
+  font-size: 12px;
+  color: #333;
+}
+#headerContainer #classification #classification1 #classification1-1 li .tabulation .tabulation0 .tabulation1 span a:hover {
+  color: #f63;
+}
+#headerContainer #classification #classification1 #classification1-1 li .tabulation .tabulation0 li {
+  float: left;
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+#headerContainer #classification #classification1 #classification1-1 li .tabulation .tabulation0 li:hover {
+  background: none;
+}
+#headerContainer #classification #classification1 #classification1-1 li .tabulation .tabulation0 li a {
+  font-size: 12px;
+  color: #777;
+}
+#headerContainer #classification #classification1 #classification1-1 li .tabulation .tabulation0 li a:hover {
+  color: #f63;
+}
+#headerContainer #classification #classification1 #classification1-1 li .tabulation .tabulation2 {
+  float: left;
+  margin-top: 20px;
+}
+#headerContainer #classification #classification1 #classification1-1 li .tabulation .tabulation2 .tabulation3 {
+  float: left;
+  width: 327px;
+  height: 51px;
+  border-bottom: 1px solid #eee;
+  margin-left: 30px;
+}
+#headerContainer #classification #classification1 #classification1-1 li .tabulation .tabulation2 .tabulation3 p {
+  float: left;
+  font-size: 15px;
+  color: #333;
+  margin-top: 20px;
+  margin-left: 0;
+}
+#headerContainer #classification #classification1 #classification1-1 li .tabulation .tabulation2 .tabulation3 span {
+  float: right;
+  margin-top: 18px;
+}
+#headerContainer #classification #classification1 #classification1-1 li .tabulation .tabulation2 .tabulation3 span a {
+  font-size: 12px;
+  color: #333;
+}
+#headerContainer #classification #classification1 #classification1-1 li .tabulation .tabulation2 .tabulation3 span a:hover {
+  color: #f63;
+}
+#headerContainer #classification #classification1 #classification1-1 li .tabulation .tabulation2 li {
+  float: left;
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+#headerContainer #classification #classification1 #classification1-1 li .tabulation .tabulation2 li:hover {
+  background: none;
+}
+#headerContainer #classification #classification1 #classification1-1 li .tabulation .tabulation2 li a {
+  font-size: 12px;
+  color: #777;
+}
+#headerContainer #classification #classification1 #classification1-1 li .tabulation .tabulation2 li a:hover {
+  color: #f63;
+}
+#headerContainer #classification #classification2 {
+  float: left;
+}
+#headerContainer #classification #classification2 li {
+  float: left;
+  line-height: 35px;
+  margin-left: 50px;
+}
+#headerContainer #classification #classification2 li a {
+  font-size: 15px;
+  color: #333;
+  font-weight: 900;
+}
+#headerContainer #classification #classification2 li a:hover {
+  color: #f63;
+}
+
+/*----------------------bannerSlideshow------------------*/
+#bannerSlideshow {
+  /*float: left;*/
+  width: 1190px;
+  height: 520px;
+  margin: 0 auto;
+}
+#bannerSlideshow #slideshow {
+  position: relative;
+  float: left;
+  margin-left: 220px;
+  margin-top: 10px;
+  width: 770px;
+  height: 300px;
+  overflow: hidden;
+}
+#bannerSlideshow #slideshow #slideshow1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4620px;
+  height: 300px;
+}
+#bannerSlideshow #slideshow #slideshow1 li {
+  float: left;
+  width: 770px;
+  height: 300px;
+}
+#bannerSlideshow #slideshow #slideshow1 li img {
+  float: left;
+  width: 770px;
+  height: 300px;
+}
+#bannerSlideshow #slideshow #seamless {
+  display: none;
+}
+#bannerSlideshow #slideshow #seamless #seamlessLeft {
+  display: block;
+  width: 30px;
+  height: 60px;
+  background: #000;
+  color: #fff;
+  font-size: 30px;
+  line-height: 60px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  z-index: 2;
+  cursor: pointer;
+  opacity: 0.3;
+  left: 0px;
+}
+#bannerSlideshow #slideshow #seamless #seamlessRight {
+  display: block;
+  width: 30px;
+  height: 60px;
+  background: #000;
+  color: #fff;
+  font-size: 30px;
+  line-height: 60px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  z-index: 2;
+  cursor: pointer;
+  opacity: 0.3;
+  right: 0px;
+}
+#bannerSlideshow #slideshow #MoveDots {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -70px;
+  width: 140px;
+  height: 30px;
+  background: rgba(215, 215, 215, 0.3);
+  border-radius: 20px;
+}
+#bannerSlideshow #slideshow #MoveDots li {
+  float: left;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #ffffff;
+  margin: 5px 5px;
+  margin-left: 7px;
+  line-height: 30px;
+  text-align: center;
+}
+#bannerSlideshow #slideshow #MoveDots .MoveDots1 {
+  background: #f63;
+}
+#bannerSlideshow #conversation {
+  float: left;
+  width: 770px;
+  height: 200px;
+  background: #fff;
+  margin-top: 10px;
+  margin-left: 220px;
+}
+#bannerSlideshow #conversation #conversation1 {
+  float: left;
+  width: 290px;
+  height: 156px;
+  border-right: 1px dashed #ccc;
+}
+#bannerSlideshow #conversation #conversation1 #conversation1-1 {
+  width: 237px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 27px;
+  border-bottom: 1px dashed #ccc;
+}
+#bannerSlideshow #conversation #conversation1 #conversation1-1 img {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-top: 11px;
+  margin-left: 80px;
+}
+#bannerSlideshow #conversation #conversation1 #conversation1-1 a {
+  float: left;
+  font-size: 16px;
+  color: #333;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 900;
+  margin-left: 5px;
+}
+#bannerSlideshow #conversation #conversation1 #conversation1-2 {
+  width: 237px;
+  height: 90px;
+  margin-top: 15px;
+  margin-left: 27px;
+}
+#bannerSlideshow #conversation #conversation1 #conversation1-2 li {
+  float: left;
+  width: 72px;
+  height: 30px;
+  margin-right: 7px;
+  line-height: 30px;
+}
+#bannerSlideshow #conversation #conversation1 #conversation1-2 li a {
+  font-size: 12px;
+  color: #333;
+}
+#bannerSlideshow #conversation #conversation1 #conversation1-2 li a:hover {
+  color: #f63;
+}
+#bannerSlideshow #conversation #conversation2 {
+  float: left;
+  width: 290px;
+  height: 156px;
+  border-right: 1px dashed #ccc;
+}
+#bannerSlideshow #conversation #conversation2 #conversation2-1 {
+  width: 237px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 27px;
+  border-bottom: 1px dashed #ccc;
+}
+#bannerSlideshow #conversation #conversation2 #conversation2-1 img {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-top: 11px;
+  margin-left: 80px;
+}
+#bannerSlideshow #conversation #conversation2 #conversation2-1 a {
+  float: left;
+  font-size: 16px;
+  color: #333;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 900;
+  margin-left: 5px;
+}
+#bannerSlideshow #conversation #conversation2 #conversation2-2 {
+  width: 237px;
+  height: 90px;
+  margin-top: 15px;
+  margin-left: 27px;
+}
+#bannerSlideshow #conversation #conversation2 #conversation2-2 li {
+  float: left;
+  width: 72px;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 7px;
+}
+#bannerSlideshow #conversation #conversation2 #conversation2-2 li a {
+  font-size: 12px;
+  color: #333;
+}
+#bannerSlideshow #conversation #conversation2 #conversation2-2 li a:hover {
+  color: #f63;
+}
+#bannerSlideshow #conversation #conversation3 {
+  float: left;
+  width: 187px;
+  height: 156px;
+  border-right: 1px dashed #ccc;
+}
+#bannerSlideshow #conversation #conversation3 #conversation3-1 {
+  width: 138px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 27px;
+  border-bottom: 1px dashed #ccc;
+}
+#bannerSlideshow #conversation #conversation3 #conversation3-1 img {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-top: 11px;
+  margin-left: 30px;
+}
+#bannerSlideshow #conversation #conversation3 #conversation3-1 a {
+  float: left;
+  font-size: 16px;
+  color: #333;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 900;
+  margin-left: 5px;
+}
+#bannerSlideshow #conversation #conversation3 #conversation3-2 {
+  width: 138px;
+  height: 90px;
+  margin-top: 15px;
+  margin-left: 27px;
+}
+#bannerSlideshow #conversation #conversation3 #conversation3-2 li {
+  float: left;
+  width: 44px;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 7px;
+}
+#bannerSlideshow #conversation #conversation3 #conversation3-2 li a {
+  font-size: 12px;
+  color: #333;
+}
+#bannerSlideshow #conversation #conversation3 #conversation3-2 li a:hover {
+  color: #f63;
+}
+#bannerSlideshow #Goedemiddag {
+  float: right;
+  width: 190px;
+  height: 510px;
+  background: #fff;
+  margin-top: -300px;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag1 {
+  width: 160px;
+  height: 182px;
+  margin-left: 15px;
+  border-bottom: 1px dashed #ccc;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag1 img {
+  width: 60px;
+  height: 60px;
+  margin-top: 15px;
+  margin-left: 48px;
+  margin-bottom: 5px;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag1 p {
+  width: 160px;
+  height: 14px;
+  font-size: 12px;
+  color: #333;
+  line-height: 14px;
+  text-align: center;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag1 span {
+  width: 160px;
+  height: 14px;
+  font-size: 12px;
+  color: #ccc;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag1 #Goedemiddag1-1 {
+  float: left;
+  width: 76px;
+  height: 24px;
+  background: #f63;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 8px;
+  margin-top: 10px;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag1 #Goedemiddag1-1 a {
+  font-size: 12px;
+  color: #fff;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag1 #Goedemiddag1-2 {
+  float: left;
+  width: 76px;
+  height: 24px;
+  background: #f63;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag1 #Goedemiddag1-2 a {
+  font-size: 12px;
+  color: #fff;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag2 {
+  width: 160px;
+  height: 191px;
+  margin-left: 15px;
+  border-bottom: 1px dashed #ccc;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag2 #Goedemiddag2-1 {
+  width: 160px;
+  height: 49px;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag2 #Goedemiddag2-1 li {
+  float: left;
+  cursor: pointer;
+  /*margin-left: 10px;*/
+  margin-right: 10px;
+  margin-top: 20px;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag2 #Goedemiddag2-1 li:hover span {
+  color: #f63;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag2 #Goedemiddag2-1 li:hover p {
+  color: #f63;
+  border-bottom: 2px solid #f63;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag2 #Goedemiddag2-1 li span {
+  font-size: 20px;
+  color: #ccc;
+  text-align: center;
+  margin-left: 15px;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag2 #Goedemiddag2-1 li p {
+  font-size: 12px;
+  color: #ccc;
+  margin-left: 12px;
+  margin-top: 5px;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag2 #xinwen {
+  width: 160px;
+  height: 100px;
+  margin-top: 30px;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag2 #xinwen a {
+  float: left;
+  font-size: 12px;
+  color: #999;
+  padding-bottom: 10px;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag2 #xinwen a:hover {
+  color: #f63;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag3 {
+  width: 160px;
+  height: 81px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag3 #Goedemiddag3-1 {
+  float: left;
+  width: 160px;
+  height: 35px;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag3 #Goedemiddag3-1 img {
+  float: left;
+  width: 70px;
+  height: 22px;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag3 #Goedemiddag3-1 a {
+  float: right;
+  width: 62px;
+  height: 22px;
+  font-size: 12px;
+  color: #f63;
+  border: 1px solid #f63;
+  line-height: 22px;
+  text-align: center;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag3 #Goedemiddag3-2 {
+  float: left;
+  width: 160px;
+  height: 46px;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag3 #Goedemiddag3-2 img {
+  float: left;
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag3 #Goedemiddag3-2 a {
+  float: left;
+  font-size: 12px;
+  color: #999;
+}
+#bannerSlideshow #Goedemiddag #Goedemiddag3 #Goedemiddag3-2 a:hover {
+  color: #f63;
+}
+
+/*------------------------beerAndSkittles---------------------*/
+.beerAndSkittles {
+  width: 1190px;
+  height: 481px;
+  margin: 30px auto;
+}
+.beerAndSkittles .beer {
+  float: left;
+  width: 590px;
+  height: 480px;
+  background: #fff;
+  margin-right: 10px;
+}
+.beerAndSkittles .beer .beerfoot {
+  width: 590px;
+  height: 30px;
+  margin: 20px 0;
+}
+.beerAndSkittles .beer .beerfoot img {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.beerAndSkittles .beer .beerfoot h2 {
+  float: left;
+  font-size: 20px;
+  color: #333;
+  line-height: 30px;
+}
+.beerAndSkittles .beer .beerfoot .beerfoot1 {
+  float: left;
+  width: 244px;
+  height: 30px;
+}
+.beerAndSkittles .beer .beerfoot .beerfoot1 li {
+  float: left;
+  margin-left: 12px;
+  margin-top: 3px;
+}
+.beerAndSkittles .beer .beerfoot .beerfoot1 li a {
+  font-size: 12px;
+  color: #999;
+  border: 1px solid #ccc;
+  padding: 3px 3px;
+}
+.beerAndSkittles .beer .beerfoot .beerfoot1 li a:hover {
+  color: #f63;
+}
+.beerAndSkittles .beer .beerfoot span {
+  float: right;
+  font-size: 12px;
+  color: #333;
+  line-height: 30px;
+}
+.beerAndSkittles .beer .beerfoot span a {
+  font-size: 12px;
+  color: #333;
+  margin-right: 20px;
+}
+.beerAndSkittles .beer .beerfoot span a:hover {
+  color: #f63;
+}
+.beerAndSkittles .beer .skittles {
+  width: 590px;
+  height: 410px;
+  /*margin-left: 20px;*/
+}
+.beerAndSkittles .beer .skittles li {
+  float: left;
+  width: 170px;
+  height: 183px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.beerAndSkittles .beer .skittles li .skittles0 {
+  float: left;
+  width: 170px;
+  height: 96px;
+}
+.beerAndSkittles .beer .skittles li .skittles0:hover .skittles0-1 {
+  display: block;
+}
+.beerAndSkittles .beer .skittles li .skittles0 img {
+  width: 170px;
+  height: 96px;
+}
+.beerAndSkittles .beer .skittles li .skittles0 .skittles0-1 {
+  display: none;
+  position: relative;
+  top: -100px;
+  left: 0;
+  width: 170px;
+  height: 96px;
+  opacity: 0.3;
+  background: #999;
+}
+.beerAndSkittles .beer .skittles li .skittles1 {
+  float: left;
+  width: 170px;
+  height: 25px;
+  margin-top: 10px;
+}
+.beerAndSkittles .beer .skittles li .skittles1 a {
+  float: left;
+  font-size: 16px;
+  color: #333;
+}
+.beerAndSkittles .beer .skittles li .skittles1 a:hover {
+  color: #f63;
+}
+.beerAndSkittles .beer .skittles li .skittles1 p {
+  float: left;
+  width: 16px;
+  height: 16px;
+  background: #5BAD24;
+  color: #fff;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 3px;
+}
+.beerAndSkittles .beer .skittles li .skittles1 span {
+  float: left;
+  width: 16px;
+  height: 16px;
+  background: #f63;
+  color: #fff;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+  margin-top: 3px;
+}
+.beerAndSkittles .beer .skittles li .skittles2 {
+  float: left;
+  width: 170px;
+  height: 12px;
+}
+.beerAndSkittles .beer .skittles li .skittles2 img {
+  float: left;
+  width: 66px;
+  height: 12px;
+}
+.beerAndSkittles .beer .skittles li .skittles2 p {
+  float: right;
+  font-size: 12px;
+  color: #999;
+}
+.beerAndSkittles .beer .skittles li .skittles3 {
+  float: left;
+  width: 170px;
+  height: 12px;
+  margin-top: 6px;
+}
+.beerAndSkittles .beer .skittles li .skittles3 p {
+  float: left;
+  font-size: 12px;
+  color: #999;
+}
+.beerAndSkittles .beer .skittles li .skittles3 span {
+  float: right;
+  font-size: 12px;
+  color: #999;
+}
+.beerAndSkittles .beer .skittles li .skittles4 {
+  float: left;
+  font-size: 12px;
+  color: #999;
+  margin-top: 6px;
+}
+.beerAndSkittles .beer1 {
+  float: left;
+  width: 590px;
+  height: 480px;
+  background: #fff;
+}
+.beerAndSkittles .beer1 .beerfoot {
+  width: 590px;
+  height: 30px;
+  margin: 20px 0;
+}
+.beerAndSkittles .beer1 .beerfoot img {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.beerAndSkittles .beer1 .beerfoot h2 {
+  float: left;
+  font-size: 20px;
+  color: #333;
+  line-height: 30px;
+}
+.beerAndSkittles .beer1 .beerfoot .beerfoot1 {
+  float: left;
+  width: 244px;
+  height: 30px;
+}
+.beerAndSkittles .beer1 .beerfoot .beerfoot1 li {
+  float: left;
+  margin-left: 12px;
+  margin-top: 3px;
+}
+.beerAndSkittles .beer1 .beerfoot .beerfoot1 li a {
+  font-size: 12px;
+  color: #999;
+  border: 1px solid #ccc;
+  padding: 3px 3px;
+}
+.beerAndSkittles .beer1 .beerfoot .beerfoot1 li a:hover {
+  color: #f63;
+}
+.beerAndSkittles .beer1 .beerfoot span {
+  float: right;
+  font-size: 12px;
+  color: #333;
+  line-height: 30px;
+}
+.beerAndSkittles .beer1 .beerfoot span a {
+  font-size: 12px;
+  color: #333;
+  margin-right: 20px;
+}
+.beerAndSkittles .beer1 .beerfoot span a:hover {
+  color: #f63;
+}
+.beerAndSkittles .beer1 .skittles {
+  width: 590px;
+  height: 410px;
+  /*margin-left: 20px;*/
+}
+.beerAndSkittles .beer1 .skittles li {
+  float: left;
+  width: 170px;
+  height: 183px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.beerAndSkittles .beer1 .skittles li .skittles0 {
+  float: left;
+  width: 170px;
+  height: 96px;
+}
+.beerAndSkittles .beer1 .skittles li .skittles0:hover .skittles0-1 {
+  display: block;
+}
+.beerAndSkittles .beer1 .skittles li .skittles0 img {
+  width: 170px;
+  height: 96px;
+}
+.beerAndSkittles .beer1 .skittles li .skittles0 .skittles0-1 {
+  display: none;
+  position: relative;
+  top: -100px;
+  left: 0;
+  width: 170px;
+  height: 96px;
+  opacity: 0.3;
+  background: #999;
+}
+.beerAndSkittles .beer1 .skittles li .skittles1 {
+  float: left;
+  width: 170px;
+  height: 25px;
+  margin-top: 10px;
+}
+.beerAndSkittles .beer1 .skittles li .skittles1 a {
+  float: left;
+  font-size: 16px;
+  color: #333;
+}
+.beerAndSkittles .beer1 .skittles li .skittles1 a:hover {
+  color: #f63;
+}
+.beerAndSkittles .beer1 .skittles li .skittles1 p {
+  float: left;
+  width: 16px;
+  height: 16px;
+  background: #5BAD24;
+  color: #fff;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 3px;
+}
+.beerAndSkittles .beer1 .skittles li .skittles1 span {
+  float: left;
+  width: 16px;
+  height: 16px;
+  background: #f63;
+  color: #fff;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+  margin-top: 3px;
+}
+.beerAndSkittles .beer1 .skittles li .skittles2 {
+  float: left;
+  width: 170px;
+  height: 12px;
+}
+.beerAndSkittles .beer1 .skittles li .skittles2 img {
+  float: left;
+  width: 66px;
+  height: 12px;
+}
+.beerAndSkittles .beer1 .skittles li .skittles2 p {
+  float: right;
+  font-size: 12px;
+  color: #999;
+}
+.beerAndSkittles .beer1 .skittles li .skittles3 {
+  float: left;
+  width: 170px;
+  height: 12px;
+  margin-top: 6px;
+}
+.beerAndSkittles .beer1 .skittles li .skittles3 p {
+  float: left;
+  font-size: 12px;
+  color: #999;
+}
+.beerAndSkittles .beer1 .skittles li .skittles3 span {
+  float: right;
+  font-size: 12px;
+  color: #999;
+}
+.beerAndSkittles .beer1 .skittles li .skittles4 {
+  float: left;
+  font-size: 12px;
+  color: #999;
+  margin-top: 6px;
+}
+
+/*--------------------------marriage------------------------*/
+.marriage {
+  width: 1190px;
+  height: 526px;
+  margin: 0 auto;
+  background: #fff;
+}
+.marriage .mFoot {
+  float: left;
+  width: 1170px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.marriage .mFoot img {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.marriage .mFoot h2 {
+  float: left;
+  font-size: 20px;
+  color: #333;
+}
+.marriage .mFoot .mFoot1 {
+  float: left;
+  margin-top: 3px;
+}
+.marriage .mFoot .mFoot1 li {
+  float: left;
+  margin-left: 10px;
+}
+.marriage .mFoot .mFoot1 li a {
+  font-size: 12px;
+  color: #777;
+  border: 1px solid #e1e1e1;
+  padding: 3px;
+}
+.marriage .mFoot .mFoot1 li a:hover {
+  color: #f63;
+}
+.marriage .mFoot .mFoot2 {
+  float: right;
+  margin-right: 20px;
+}
+.marriage .mFoot .mFoot2 a {
+  font-size: 12px;
+  color: #333;
+  padding-right: 5px;
+}
+.marriage .mFoot .mFoot2 a:hover {
+  color: #f63;
+}
+.marriage .mContent {
+  float: left;
+  width: 1190px;
+  height: 456px;
+  margin-left: 20px;
+}
+.marriage .mContent .mContent1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  float: left;
+  width: 370px;
+  height: 436px;
+}
+.marriage .mContent .mContent1:hover p {
+  display: block;
+}
+.marriage .mContent .mContent1 a img {
+  width: 100%;
+  height: 100%;
+}
+.marriage .mContent .mContent1 span {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 370px;
+  height: 50px;
+  background: rgba(203, 158, 158, 0.5);
+  font-size: 18px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+}
+.marriage .mContent .mContent1 p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 370px;
+  height: 436px;
+  background: #ccc;
+  opacity: 0.2;
+  display: none;
+}
+.marriage .mContent .mContent2 {
+  float: left;
+  width: 800px;
+}
+.marriage .mContent .mContent2 li {
+  position: relative;
+  float: left;
+  width: 370px;
+  height: 208px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.marriage .mContent .mContent2 li:hover p {
+  display: block;
+}
+.marriage .mContent .mContent2 li img {
+  width: 100%;
+  height: 100%;
+}
+.marriage .mContent .mContent2 li span {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 370px;
+  height: 50px;
+  background: rgba(203, 158, 158, 0.5);
+  font-size: 18px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+}
+.marriage .mContent .mContent2 li p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 370px;
+  height: 208px;
+  background: #ccc;
+  opacity: 0.2;
+  display: none;
+}
+
+/*-------------------------emulate----------------------*/
+.emulate {
+  width: 1190px;
+  height: 280px;
+  margin: 30px auto;
+  background: #fff;
+}
+.emulate .cultivate {
+  float: left;
+  width: 1190px;
+  height: 30px;
+  margin: 20px 0;
+}
+.emulate .cultivate img {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+.emulate .cultivate h2 {
+  float: left;
+  font-size: 20px;
+  color: #333;
+  margin-left: 10px;
+}
+.emulate .cultivate .cultivate1 {
+  float: left;
+}
+.emulate .cultivate .cultivate1 li {
+  float: left;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.emulate .cultivate .cultivate1 li a {
+  font-size: 12px;
+  color: #999;
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+.emulate .cultivate .cultivate1 li a:hover {
+  color: #f63;
+}
+.emulate .cultivate .cultivate2 {
+  float: right;
+  margin-right: 20px;
+}
+.emulate .cultivate .cultivate2 a {
+  font-size: 12px;
+  color: #333;
+}
+.emulate .cultivate .cultivate2 a:hover {
+  color: #f63;
+}
+.emulate .occupation {
+  float: left;
+  width: 1190px;
+  height: 210px;
+  margin-left: 20px;
+}
+.emulate .occupation .occupation1 li {
+  float: left;
+  width: 198px;
+  height: 190px;
+  margin-right: -2px;
+}
+.emulate .occupation .occupation1 li .occupation2 {
+  position: relative;
+  float: left;
+  width: 170px;
+  height: 96px;
+}
+.emulate .occupation .occupation1 li .occupation2:hover .occupation2-1 {
+  display: block;
+}
+.emulate .occupation .occupation1 li .occupation2 img {
+  width: 100%;
+  height: 100%;
+}
+.emulate .occupation .occupation1 li .occupation2 .occupation2-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 170px;
+  height: 96px;
+  background: #ccc;
+  opacity: 0.2;
+  display: none;
+}
+.emulate .occupation .occupation1 li .occupation3 {
+  float: left;
+  width: 170px;
+  height: 18px;
+  margin-top: 10px;
+}
+.emulate .occupation .occupation1 li .occupation3 a {
+  float: left;
+  font-size: 15px;
+  color: #333;
+}
+.emulate .occupation .occupation1 li .occupation3 a:hover {
+  color: #f63;
+}
+.emulate .occupation .occupation1 li .occupation3 p {
+  float: left;
+  width: 16px;
+  height: 16px;
+  background: #5AC423;
+  font-size: 12px;
+  color: #fff;
+  line-height: 16px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+.emulate .occupation .occupation1 li .occupation3 span {
+  float: left;
+  width: 16px;
+  height: 16px;
+  background: #f63;
+  font-size: 12px;
+  color: #fff;
+  line-height: 16px;
+  text-align: center;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.emulate .occupation .occupation1 li .occupation4 {
+  float: left;
+  width: 170px;
+  height: 12px;
+  margin-top: 5px;
+}
+.emulate .occupation .occupation1 li .occupation4 img {
+  float: left;
+  width: 66px;
+  height: 12px;
+}
+.emulate .occupation .occupation1 li .occupation4 p {
+  float: right;
+  font-size: 12px;
+  color: #999;
+}
+.emulate .occupation .occupation1 li .occupation5 {
+  float: left;
+  width: 170px;
+  height: 12px;
+  margin-top: 5px;
+}
+.emulate .occupation .occupation1 li .occupation5 p {
+  float: left;
+  font-size: 12px;
+  color: #999;
+}
+.emulate .occupation .occupation1 li .occupation5 span {
+  float: right;
+  font-size: 12px;
+  color: #999;
+}
+.emulate .occupation .occupation1 li .occupation6 {
+  float: left;
+  width: 170px;
+  height: 12px;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #999;
+}
+
+/*------------------------livelihood----------------------*/
+.livelihood {
+  width: 1190px;
+  height: 308px;
+  background: #fff;
+  margin: 0 auto;
+}
+.livelihood .livelihood1 {
+  float: left;
+  width: 1190px;
+  height: 30px;
+  margin: 20px 0;
+}
+.livelihood .livelihood1 img {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+.livelihood .livelihood1 h2 {
+  float: left;
+  font-size: 20px;
+  color: #333;
+  margin-left: 10px;
+}
+.livelihood .livelihood1 .livelihood2 {
+  float: left;
+}
+.livelihood .livelihood1 .livelihood2 li {
+  float: left;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.livelihood .livelihood1 .livelihood2 li a {
+  font-size: 12px;
+  color: #777;
+  padding: 3px;
+  border: 1px solid #e1e1e1;
+}
+.livelihood .livelihood1 .livelihood2 li a:hover {
+  color: #f63;
+}
+.livelihood .livelihood1 .livelihood3 {
+  float: right;
+  margin-right: 20px;
+}
+.livelihood .livelihood1 .livelihood3 a {
+  font-size: 12px;
+  color: #333;
+}
+.livelihood .livelihood1 .livelihood3 a:hover {
+  color: #f63;
+}
+.livelihood .livelihood4 {
+  float: left;
+  width: 1190px;
+  height: 238px;
+}
+.livelihood .livelihood4 .livelihood5 li {
+  position: relative;
+  float: left;
+  width: 214px;
+  height: 214px;
+  margin-left: 20px;
+}
+.livelihood .livelihood4 .livelihood5 li:hover span {
+  display: block;
+}
+.livelihood .livelihood4 .livelihood5 li img {
+  width: 100%;
+  height: 100%;
+}
+.livelihood .livelihood4 .livelihood5 li p {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 214px;
+  height: 50px;
+  background: rgba(203, 158, 158, 0.5);
+  font-size: 18px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+}
+.livelihood .livelihood4 .livelihood5 li span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 214px;
+  height: 214px;
+  background: #ccc;
+  opacity: 0.2;
+  display: none;
+}
+
+/*-----------------------------Tourism-----------------------------*/
+.Tourism {
+  width: 1190px;
+  height: 618px;
+  margin: 30px auto;
+  background: #fff;
+}
+.Tourism .Tourism1 {
+  float: left;
+  width: 1190px;
+  height: 30px;
+  margin: 20px 0;
+}
+.Tourism .Tourism1 img {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+.Tourism .Tourism1 h2 {
+  float: left;
+  font-size: 20px;
+  color: #333;
+  margin-left: 10px;
+}
+.Tourism .Tourism1 .Tourism2 {
+  float: left;
+}
+.Tourism .Tourism1 .Tourism2 li {
+  float: left;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.Tourism .Tourism1 .Tourism2 li a {
+  font-size: 12px;
+  color: #777;
+  padding: 3px;
+  border: 1px solid #e1e1e1;
+}
+.Tourism .Tourism1 .Tourism2 li a:hover {
+  color: #f63;
+}
+.Tourism .Tourism1 .Tourism3 {
+  float: right;
+  margin-right: 20px;
+}
+.Tourism .Tourism1 .Tourism3 a {
+  font-size: 12px;
+  color: #333;
+}
+.Tourism .Tourism1 .Tourism3 a:hover {
+  color: #f63;
+}
+.Tourism .Tourism4 {
+  float: left;
+  width: 1190px;
+  height: 548px;
+}
+.Tourism .Tourism4 .Tourism5 li {
+  float: left;
+  width: 370px;
+  height: 240px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.Tourism .Tourism4 .Tourism5 li img {
+  float: left;
+  width: 370px;
+  height: 208px;
+}
+.Tourism .Tourism4 .Tourism5 li a {
+  float: left;
+  font-size: 16px;
+  color: #222;
+  margin-top: 10px;
+}
+.Tourism .Tourism4 .Tourism5 li a:hover {
+  color: #f63;
+}
+
+/*-------------------------emulate----------------------*/
+.emulate {
+  width: 1190px;
+  height: 280px;
+  margin: 30px auto;
+  background: #fff;
+}
+.emulate .cultivate {
+  float: left;
+  width: 1190px;
+  height: 30px;
+  margin: 20px 0;
+}
+.emulate .cultivate img {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+.emulate .cultivate h2 {
+  float: left;
+  font-size: 20px;
+  color: #333;
+  margin-left: 10px;
+}
+.emulate .cultivate .cultivate1 {
+  float: left;
+}
+.emulate .cultivate .cultivate1 li {
+  float: left;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.emulate .cultivate .cultivate1 li a {
+  font-size: 12px;
+  color: #999;
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+.emulate .cultivate .cultivate1 li a:hover {
+  color: #f63;
+}
+.emulate .cultivate .cultivate2 {
+  float: right;
+  margin-right: 20px;
+}
+.emulate .cultivate .cultivate2 a {
+  font-size: 12px;
+  color: #333;
+}
+.emulate .cultivate .cultivate2 a:hover {
+  color: #f63;
+}
+.emulate .occupation {
+  float: left;
+  width: 1190px;
+  height: 210px;
+  margin-left: 20px;
+}
+.emulate .occupation .occupation1 li {
+  float: left;
+  width: 198px;
+  height: 190px;
+  margin-right: -2px;
+}
+.emulate .occupation .occupation1 li .occupation2 {
+  position: relative;
+  float: left;
+  width: 170px;
+  height: 96px;
+}
+.emulate .occupation .occupation1 li .occupation2:hover .occupation2-1 {
+  display: block;
+}
+.emulate .occupation .occupation1 li .occupation2 img {
+  width: 100%;
+  height: 100%;
+}
+.emulate .occupation .occupation1 li .occupation2 .occupation2-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 170px;
+  height: 96px;
+  background: #ccc;
+  opacity: 0.2;
+  display: none;
+}
+.emulate .occupation .occupation1 li .occupation3 {
+  float: left;
+  width: 170px;
+  height: 18px;
+  margin-top: 10px;
+}
+.emulate .occupation .occupation1 li .occupation3 a {
+  float: left;
+  font-size: 15px;
+  color: #333;
+}
+.emulate .occupation .occupation1 li .occupation3 a:hover {
+  color: #f63;
+}
+.emulate .occupation .occupation1 li .occupation3 p {
+  float: left;
+  width: 16px;
+  height: 16px;
+  background: #5AC423;
+  font-size: 12px;
+  color: #fff;
+  line-height: 16px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+.emulate .occupation .occupation1 li .occupation3 span {
+  float: left;
+  width: 16px;
+  height: 16px;
+  background: #f63;
+  font-size: 12px;
+  color: #fff;
+  line-height: 16px;
+  text-align: center;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.emulate .occupation .occupation1 li .occupation4 {
+  float: left;
+  width: 170px;
+  height: 12px;
+  margin-top: 5px;
+}
+.emulate .occupation .occupation1 li .occupation4 img {
+  float: left;
+  width: 66px;
+  height: 12px;
+}
+.emulate .occupation .occupation1 li .occupation4 p {
+  float: right;
+  font-size: 12px;
+  color: #999;
+}
+.emulate .occupation .occupation1 li .occupation5 {
+  float: left;
+  width: 170px;
+  height: 12px;
+  margin-top: 5px;
+}
+.emulate .occupation .occupation1 li .occupation5 p {
+  float: left;
+  font-size: 12px;
+  color: #999;
+}
+.emulate .occupation .occupation1 li .occupation5 span {
+  float: right;
+  font-size: 12px;
+  color: #999;
+}
+.emulate .occupation .occupation1 li .occupation6 {
+  float: left;
+  width: 170px;
+  height: 12px;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #999;
+}
+
+/*-----------------------information---------------------*/
+.information {
+  width: 100%;
+  height: 419px;
+  background: #f0f0f0;
+}
+.information .information0 {
+  width: 1190px;
+  height: 419px;
+  margin: -10px auto;
+}
+.information .information0 .information1 {
+  width: 1190px;
+  height: 216px;
+  padding: 20px 0 15px 15px;
+  border-bottom: 1px solid #e3e3e3;
+}
+.information .information0 .information1 .information1-1 {
+  float: left;
+  width: 317px;
+  height: 155px;
+  margin-top: 20px;
+}
+.information .information0 .information1 .information1-1 .information1-1-1 {
+  float: left;
+}
+.information .information0 .information1 .information1-1 .information1-1-1 h5 {
+  font-size: 15px;
+  color: #777;
+}
+.information .information0 .information1 .information1-1 .information1-1-1 li {
+  margin-top: 5px;
+}
+.information .information0 .information1 .information1-1 .information1-1-1 li a {
+  font-size: 12px;
+  color: #777;
+}
+.information .information0 .information1 .information1-1 .information1-1-1 li a:hover {
+  color: #f63;
+}
+.information .information0 .information1 .information1-2 {
+  float: left;
+  width: 317px;
+  height: 180px;
+  margin-top: 20px;
+}
+.information .information0 .information1 .information1-2 .information1-2-1 {
+  float: left;
+}
+.information .information0 .information1 .information1-2 .information1-2-1 h5 {
+  font-size: 15px;
+  color: #777;
+}
+.information .information0 .information1 .information1-2 .information1-2-1 li {
+  margin-top: 5px;
+}
+.information .information0 .information1 .information1-2 .information1-2-1 li a {
+  font-size: 12px;
+  color: #777;
+}
+.information .information0 .information1 .information1-2 .information1-2-1 li a:hover {
+  color: #f63;
+}
+.information .information0 .information1 .information1-3 {
+  float: left;
+  width: 317px;
+  height: 130px;
+  margin-top: 20px;
+}
+.information .information0 .information1 .information1-3 .information1-3-1 {
+  float: left;
+}
+.information .information0 .information1 .information1-3 .information1-3-1 h5 {
+  font-size: 15px;
+  color: #777;
+}
+.information .information0 .information1 .information1-3 .information1-3-1 li {
+  margin-top: 5px;
+}
+.information .information0 .information1 .information1-3 .information1-3-1 li a {
+  font-size: 12px;
+  color: #777;
+}
+.information .information0 .information1 .information1-3 .information1-3-1 li a:hover {
+  color: #f63;
+}
+.information .information0 .information1 .information1-4 {
+  float: left;
+  width: 140px;
+  height: 149px;
+  margin-top: 20px;
+}
+.information .information0 .information1 .information1-4 h5 {
+  font-size: 15px;
+  color: #777;
+}
+.information .information0 .information1 .information1-4 img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.information .information0 .information1 .information1-4 p {
+  margin-left: 25px;
+}
+.information .information0 .information1 .information1-4 p a {
+  font-size: 12px;
+  color: #777;
+}
+.information .information0 .information2 {
+  width: 119px;
+  height: 123px;
+  margin-top: 20px;
+}
+.information .information0 .information2 .information2-1 {
+  width: 1190px;
+  height: 25px;
+  font-size: 12px;
+  color: #999;
+  line-height: 25px;
+  text-align: center;
+}
+.information .information0 .information2 .information2-2 {
+  width: 1190px;
+  height: 25px;
+  font-size: 12px;
+  color: #999;
+  line-height: 25px;
+  text-align: center;
+}
+.information .information0 .information2 .information2-3 {
+  width: 1190px;
+  height: 25px;
+  font-size: 12px;
+  color: #999;
+  line-height: 25px;
+  text-align: center;
+}
+.information .information0 .information2 .information2-4 {
+  width: 1190px;
+  height: 38px;
+}
+.information .information0 .information2 .information2-4 .information2-4-1 {
+  /*width:1190px;*/
+  height: 38px;
+  margin-top: 5px;
+  margin-left: 197px;
+}
+.information .information0 .information2 .information2-4 .information2-4-1 li {
+  float: left;
+  height: 35px;
+  margin-right: 5px;
+}
+.information .information0 .information2 .information2-4 .information2-4-1 li a {
+  float: left;
+}
+.information .information0 .information2 .information2-4 .information2-4-1 li a img {
+  float: left;
+  height: 35px;
+}
+
+/*-------------------------fixed----------------------*/
+.fixed {
+  position: fixed;
+  bottom: 100px;
+  right: 5px;
+  width: 80px;
+  height: 100px;
+}
+.fixed img {
+  width: 80px;
+  height: 100px;
+}
+
+/*-------------------------listFixed-----------------------*/
+.listFixed {
+  position: fixed;
+  left: 60px;
+  bottom: 150px;
+  width: 40px;
+  height: 378px;
+  display: none;
+}
+.listFixed .listFixed1 {
+  width: 40px;
+  height: 378px;
+}
+.listFixed .listFixed1 li {
+  margin-bottom: 2px;
+  width: 40px;
+  height: 40px;
+  background: #7b7171;
+  cursor: pointer;
+}
+.listFixed .listFixed1 li:hover {
+  background: #c84213;
+}
+.listFixed .listFixed1 li a {
+  font-size: 12px;
+  color: #fff;
+  line-height: 14px;
+  text-align: center;
+  padding: 6px;
+  box-sizing: border-box;
+  word-break: break-all;
+  display: inline-block;
+}
+.listFixed .listFixed2 {
+  margin-top: -42px;
+  width: 40px;
+  height: 40px;
+  background: #333;
+  cursor: pointer;
+}
+.listFixed .listFixed2:hover {
+  background: #c84213;
+}
+.listFixed .listFixed2 a {
+  font-size: 12px;
+  color: #fff;
+  line-height: 27px;
+  text-align: center;
+  padding: 6px;
+  box-sizing: border-box;
+  word-break: break-all;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=index.css.map */

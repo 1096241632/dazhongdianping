@@ -1,0 +1,1101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/*-------------------------topNav------------------------*/
+#topNav {
+  width: 85%;
+  height: 35px;
+  margin: 0 auto;
+}
+#topNav #topNav1 {
+  float: left;
+  width: 90%;
+  height: 37px;
+  margin-left: 46%;
+}
+#topNav #topNav1 span {
+  float: left;
+  line-height: 35px;
+  color: #c7c7c7;
+  font-size: 12px;
+}
+#topNav #topNav1 .topNav1-1 {
+  float: left;
+  padding: 0 17px;
+  line-height: 37px;
+  cursor: pointer;
+  vertical-align: middle;
+  margin: 10px 0;
+  font-size: 12px;
+  color: #333;
+  margin-top: 0px;
+}
+#topNav #topNav1 .topNav1-1 a {
+  font-size: 12px;
+  color: #333;
+}
+#topNav #topNav1 .topNav1-1 a:hover {
+  color: #f65d29;
+}
+#topNav #topNav1 p {
+  float: left;
+  color: #f65d29;
+  font-size: 12px;
+  line-height: 37px;
+  padding-right: 17px;
+}
+#topNav #topNav1 p a {
+  font-size: 12px;
+  color: #f65d29;
+}
+#topNav #topNav1 .topNav1-2 {
+  position: relative;
+  float: left;
+  width: 9%;
+  line-height: 37px;
+  text-align: center;
+  cursor: pointer;
+  vertical-align: middle;
+  margin: 10px 0;
+  font-size: 12px;
+  color: #333;
+  margin-top: 0px;
+}
+#topNav #topNav1 .topNav1-2 a {
+  font-size: 12px;
+  color: #333;
+}
+#topNav #topNav1 .topNav1-2 a:hover {
+  color: #f65d29;
+}
+#topNav #topNav1 .topNav1-2:hover {
+  color: #f65d29;
+  background: #fff;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#topNav #topNav1 .topNav1-2:hover .topNav2 {
+  display: block;
+  background: #fff;
+}
+#topNav #topNav1 .topNav1-2 img {
+  position: relative;
+  top: 0;
+  left: 8px;
+  width: 10%;
+  height: 10%;
+}
+#topNav #topNav1 .topNav1-2 .topNav2 {
+  display: none;
+  position: relative;
+  top: -6px;
+  left: 0;
+  width: 100px;
+  z-index: 99999;
+}
+#topNav #topNav1 .topNav1-2 .topNav2 li {
+  padding-right: 17px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+#topNav #topNav1 .topNav1-2 .topNav2 li:hover {
+  background: #f0f0f0;
+}
+#topNav #topNav1 .topNav1-2 .topNav2 li a {
+  font-size: 12px;
+  color: #333;
+}
+#topNav #topNav1 .topNav1-2 .topNav2 li a:hover {
+  color: #f65d29;
+}
+
+/*-----------------------headerContainer---------------------*/
+#headerContainer {
+  width: 100%;
+  background: #fff;
+}
+#headerContainer #headerContainer1 {
+  top: 0;
+  width: 84%;
+  height: 93px;
+  margin: 0 auto;
+}
+#headerContainer #headerContainer1 #logo {
+  float: left;
+  width: 16%;
+  height: 53%;
+  margin-top: 22px;
+}
+#headerContainer #headerContainer1 #logo img {
+  width: 100%;
+  height: 85%;
+}
+#headerContainer #headerContainer1 #address {
+  position: relative;
+  float: left;
+  margin-left: 30px;
+  cursor: pointer;
+  background: #fff;
+  z-index: 999999;
+}
+#headerContainer #headerContainer1 #address:hover #address1 {
+  display: block;
+}
+#headerContainer #headerContainer1 #address span {
+  float: left;
+  font-size: 15px;
+  color: #333;
+  margin-right: 5px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+#headerContainer #headerContainer1 #address p {
+  float: left;
+  font-size: 15px;
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+#headerContainer #headerContainer1 #address p:hover {
+  color: #f63;
+}
+#headerContainer #headerContainer1 #address #address1 {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 1026%;
+  background: #fff;
+  height: 400px;
+  z-index: 999999;
+  border: 1px solid #ccc;
+  border-top: 0px;
+  display: none;
+}
+#headerContainer #headerContainer1 #address #address1 .address2 {
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  border-bottom: 1px solid #ccc;
+}
+#headerContainer #headerContainer1 #address #address1 .address2 h4 {
+  float: left;
+  font-size: 12px;
+  color: #ccc;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+#headerContainer #headerContainer1 #address #address1 .address2 li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 33px;
+  margin-top: 5px;
+}
+#headerContainer #headerContainer1 #address #address1 .address2 li a {
+  font-size: 12px;
+  color: #333;
+}
+#headerContainer #headerContainer1 #address #address1 .address2 li a:hover {
+  color: #f63;
+}
+#headerContainer #headerContainer1 #address #address1 .address3 {
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  /*border-bottom: 1px solid #ccc;*/
+}
+#headerContainer #headerContainer1 #address #address1 .address3 h4 {
+  float: left;
+  font-size: 12px;
+  color: #ccc;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+#headerContainer #headerContainer1 #address #address1 .address3 li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 33px;
+  margin-top: 5px;
+}
+#headerContainer #headerContainer1 #address #address1 .address3 li a {
+  font-size: 12px;
+  color: #333;
+}
+#headerContainer #headerContainer1 #address #address1 .address3 li a:hover {
+  color: #f63;
+}
+#headerContainer #headerContainer1 #search {
+  float: left;
+  width: 47%;
+  height: 75px;
+  margin-left: 100px;
+  margin-top: 28px;
+}
+#headerContainer #headerContainer1 #search #search0 {
+  height: 36px;
+  float: left;
+  border: 2px solid #FF6585;
+  width: 100%;
+}
+#headerContainer #headerContainer1 #search #search0 input {
+  float: left;
+  width: 75%;
+  height: 36px;
+  color: #ccc;
+  font-size: 12px;
+  border: none;
+  padding-left: 10px;
+}
+#headerContainer #headerContainer1 #search #search0 #search1 {
+  cursor: pointer;
+  float: right;
+  width: 23%;
+  height: 36px;
+  font-size: 16px;
+  color: #fff;
+  background: #FF6585;
+  line-height: 36px;
+  text-align: center;
+}
+#headerContainer #headerContainer1 #search #search2 {
+  float: left;
+  margin-top: 5px;
+}
+#headerContainer #headerContainer1 #search #search2 h4 {
+  float: left;
+  font-size: 12px;
+  color: #ccc;
+}
+#headerContainer #headerContainer1 #search #search2 li {
+  float: left;
+  font-size: 12px;
+  color: #999;
+  margin-left: 10px;
+}
+#headerContainer #headerContainer1 #search #search2 li a {
+  font-size: 12px;
+  color: #999;
+}
+#headerContainer #headerContainer1 #search #search2 li a:hover {
+  color: #f65d29;
+}
+#headerContainer #classification {
+  width: 85%;
+  height: 45px;
+  margin: 0 auto;
+}
+#headerContainer #classification #classification1 {
+  /*float: left;*/
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 20%;
+}
+#headerContainer #classification #classification1:hover #classification1-1 {
+  display: block;
+}
+#headerContainer #classification #classification1 h3 {
+  float: left;
+  width: 88%;
+  height: 35px;
+  color: #fff;
+  background: #FF6585;
+  font-size: 15px;
+  line-height: 35px;
+  text-align: center;
+}
+#headerContainer #classification #classification1 #classification1-1 {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 88%;
+  height: 135px;
+  background: #fff;
+  border: 1px solid #ccc;
+  display: none;
+}
+#headerContainer #classification #classification1 #classification1-1 #ef {
+  width: 100%;
+  height: 5px;
+}
+#headerContainer #classification #classification1 #classification1-1 li {
+  width: 100%;
+  height: 32px;
+}
+#headerContainer #classification #classification1 #classification1-1 li:hover {
+  background: #eee;
+}
+#headerContainer #classification #classification1 #classification1-1 li:hover .tabulation {
+  display: block;
+}
+#headerContainer #classification #classification1 #classification1-1 li h4 {
+  float: left;
+  margin-left: 20px;
+}
+#headerContainer #classification #classification1 #classification1-1 li h4 a {
+  font-size: 15px;
+  color: #333;
+  line-height: 32px;
+}
+#headerContainer #classification #classification1 #classification1-1 li h4 a:hover {
+  color: #f63;
+}
+#headerContainer #classification #classification1 #classification1-1 li p {
+  float: left;
+  margin-left: 15px;
+}
+#headerContainer #classification #classification1 #classification1-1 li p a {
+  font-size: 12px;
+  color: #999;
+  line-height: 32px;
+}
+#headerContainer #classification #classification1 #classification1-1 li p a:hover {
+  color: #f63;
+}
+#headerContainer #classification #classification1 #classification1-1 li span {
+  float: left;
+  margin-left: 15px;
+}
+#headerContainer #classification #classification1 #classification1-1 li span a {
+  font-size: 12px;
+  color: #999;
+  line-height: 32px;
+}
+#headerContainer #classification #classification1 #classification1-1 li span a:hover {
+  color: #f63;
+}
+#headerContainer #classification #classification2 {
+  float: left;
+}
+#headerContainer #classification #classification2 li {
+  float: left;
+  line-height: 35px;
+  margin-left: 50px;
+}
+#headerContainer #classification #classification2 li a {
+  font-size: 15px;
+  color: #333;
+  font-weight: 900;
+}
+#headerContainer #classification #classification2 li a:hover {
+  color: #f63;
+}
+
+/*-----------------------shopsearch-top--------------------------*/
+.shopsearch-top {
+  width: 85%;
+  height: 50px;
+  margin: 0 auto;
+  background: #f6f6f6;
+}
+.shopsearch-top .shopsearch-top1 {
+  float: left;
+  line-height: 50px;
+  margin-right: 1%;
+  margin-left: -47%;
+}
+.shopsearch-top .shopsearch-top1 a {
+  float: left;
+  font-size: 12px;
+  color: #333;
+  margin-left: 5%;
+}
+.shopsearch-top .shopsearch-top1 img {
+  float: left;
+  width: 20%;
+  height: 20%;
+  margin-top: 22%;
+  margin-left: 5%;
+}
+.shopsearch-top .shopsearch-top2 {
+  float: left;
+  line-height: 50px;
+  margin-left: -40%;
+}
+.shopsearch-top .shopsearch-top2 a {
+  float: left;
+  font-size: 12px;
+  color: #333;
+  margin-left: 5%;
+}
+.shopsearch-top .shopsearch-top2 img {
+  float: left;
+  width: 20%;
+  height: 20%;
+  margin-top: 22%;
+  margin-left: 5%;
+}
+.shopsearch-top .shopsearch-top3 {
+  float: left;
+  margin-top: 1%;
+  margin-left: -33%;
+}
+.shopsearch-top .shopsearch-top3 img {
+  width: 100%;
+  height: 100%;
+}
+
+/*--------------------------shopsearch-con---------------------------*/
+.shopsearch-con {
+  width: 85%;
+  min-height: 1px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.shopsearch-con .shopsearch-con1 {
+  float: left;
+  width: 80%;
+  min-height: 1px;
+  overflow: hidden;
+}
+.shopsearch-con .shopsearch-con1 .term-box {
+  width: 100%;
+  height: 40%;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box1 {
+  width: 100%;
+  height: 100%;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box1 .term-box1-1 {
+  float: left;
+  width: 22%;
+  border-top: 2px solid #f7587e;
+  background: #fff;
+  cursor: pointer;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box1 .term-box1-1 img {
+  float: left;
+  width: 14%;
+  height: 8%;
+  margin-right: 10%;
+  margin-left: 24%;
+  padding: 4% 0;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box1 .term-box1-1 p {
+  float: left;
+  font-size: 14px;
+  color: #f7587e;
+  padding: 5% 0;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box1 .term-box1-2 {
+  float: left;
+  width: 22%;
+  border: 1px solid #ccc;
+  background: #eee;
+  cursor: pointer;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box1 .term-box1-2 img {
+  float: left;
+  width: 14%;
+  height: 8%;
+  margin-right: 10%;
+  margin-left: 24%;
+  padding: 4% 0;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box1 .term-box1-2 p {
+  float: left;
+  font-size: 14px;
+  color: #333;
+  padding: 5% 0;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box2 {
+  width: 100%;
+  margin-top: 3%;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box2 .term-box2-1 {
+  width: 100%;
+  float: left;
+  margin-top: 1%;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box2 .term-box2-1 p {
+  float: left;
+  font-size: 12px;
+  color: #666;
+  margin-top: 0.2%;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box2 .term-box2-1 span {
+  float: left;
+  width: 12%;
+  margin-left: 2%;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box2 .term-box2-1 span a {
+  font-size: 12px;
+  color: #fff;
+  background: #d2ab95;
+  padding: 4% 10% 4% 10%;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box2 .term-box2-1 .term-box2-1-1 {
+  float: left;
+  width: 50%;
+  margin-left: -4%;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box2 .term-box2-1 .term-box2-1-1 li {
+  float: left;
+  margin-left: 4%;
+  padding: 0 1%;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box2 .term-box2-1 .term-box2-1-1 li:hover {
+  background: #eee;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box2 .term-box2-1 .term-box2-1-1 li a {
+  font-size: 12px;
+  color: #333;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box2 .term-box2-2 {
+  width: 100%;
+  float: left;
+  margin-top: 1%;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box2 .term-box2-2 p {
+  float: left;
+  font-size: 12px;
+  color: #666;
+  margin-top: 0.2%;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box2 .term-box2-2 span {
+  float: left;
+  width: 12%;
+  margin-left: 2%;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box2 .term-box2-2 span a {
+  font-size: 12px;
+  color: #fff;
+  background: #d2ab95;
+  padding: 4% 10% 4% 10%;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box2 .term-box2-2 .term-box2-2-1 {
+  float: left;
+  width: 50%;
+  margin-left: -4%;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box2 .term-box2-2 .term-box2-2-1 li {
+  float: left;
+  margin-left: 4%;
+  padding: 0 1%;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box2 .term-box2-2 .term-box2-2-1 li:hover {
+  background: #eee;
+}
+.shopsearch-con .shopsearch-con1 .term-box .term-box2 .term-box2-2 .term-box2-2-1 li a {
+  font-size: 12px;
+  color: #333;
+}
+.shopsearch-con .shopsearch-con1 .condition {
+  width: 100%;
+  height: 20%;
+  float: left;
+  border: 1px solid #ccc;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+.shopsearch-con .shopsearch-con1 .condition .condition1 {
+  float: left;
+  width: 33%;
+}
+.shopsearch-con .shopsearch-con1 .condition .condition1 .condition1-1 {
+  width: 100%;
+  margin-left: 8%;
+}
+.shopsearch-con .shopsearch-con1 .condition .condition1 .condition1-1 li {
+  float: left;
+  margin-right: 14%;
+  padding: 3% 0;
+}
+.shopsearch-con .shopsearch-con1 .condition .condition1 .condition1-1 li a {
+  font-size: 12px;
+  color: #333;
+}
+.shopsearch-con .shopsearch-con1 .condition .condition1 .condition1-1 li a:hover {
+  color: #f7587e;
+}
+.shopsearch-con .shopsearch-con1 .condition .condition1 .condition1-1 span {
+  float: left;
+  color: #ccc;
+  font-size: 12px;
+  margin-left: -7%;
+  margin-top: 4%;
+}
+.shopsearch-con .shopsearch-con1 .condition .condition2 {
+  float: left;
+  width: 20%;
+}
+.shopsearch-con .shopsearch-con1 .condition .condition2:hover {
+  border: 1px solid #ccc;
+}
+.shopsearch-con .shopsearch-con1 .condition .condition2:hover .condition2-1 {
+  display: block;
+}
+.shopsearch-con .shopsearch-con1 .condition .condition2 input {
+  float: left;
+  width: 25%;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.shopsearch-con .shopsearch-con1 .condition .condition2 p {
+  float: left;
+  margin-right: 3%;
+  margin-top: 4%;
+}
+.shopsearch-con .shopsearch-con1 .condition .condition2 .condition2-1 {
+  float: left;
+  width: 20%;
+  text-align: center;
+  margin-top: 3%;
+  display: none;
+}
+.shopsearch-con .shopsearch-con1 .condition .condition2 .condition2-1 a {
+  float: left;
+  width: 100%;
+  font-size: 12px;
+  color: #666;
+  border: 1px solid #ccc;
+  padding: 5%;
+  background: #eee;
+  margin-top: 4%;
+}
+.shopsearch-con .shopsearch-con1 .condition .condition3 {
+  float: left;
+  width: 35%;
+}
+.shopsearch-con .shopsearch-con1 .condition .condition3 .condition3-1 {
+  float: left;
+  margin-left: 10%;
+  width: 30%;
+}
+.shopsearch-con .shopsearch-con1 .condition .condition3 .condition3-1 li {
+  float: left;
+  margin-top: 10%;
+  width: 50%;
+}
+.shopsearch-con .shopsearch-con1 .condition .condition3 .condition3-1 li span {
+  float: left;
+  margin-right: 5%;
+  margin-top: -6%;
+}
+.shopsearch-con .shopsearch-con1 .condition .condition3 .condition3-1 li P {
+  float: left;
+  font-size: 12px;
+  color: #333;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+.shopsearch-con .shopsearch-con1 .condition .condition4 {
+  float: right;
+  margin-right: 1%;
+  margin-top: 1%;
+}
+.shopsearch-con .shopsearch-con1 .condition .condition4 img {
+  width: 90%;
+  height: 90%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list {
+  float: left;
+  width: 100%;
+  height: 80%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li {
+  float: left;
+  width: 100%;
+  margin-top: 2%;
+  border-bottom: 1px solid #ccc;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li img {
+  float: left;
+  width: 20%;
+  height: 20%;
+  margin-bottom: 2%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 {
+  float: left;
+  width: 80%;
+  height: 70%;
+  border-bottom: 1px dashed #ccc;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-1 {
+  float: left;
+  width: 60%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-1 .shop-list-1-1-1 {
+  width: 100%;
+  float: left;
+  margin-left: 4%;
+  margin-top: 2%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-1 .shop-list-1-1-1 a {
+  float: left;
+  font-size: 16px;
+  color: #333;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-1 .shop-list-1-1-1 a:hover {
+  color: #f7587e;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-1 .shop-list-1-1-1 img {
+  float: left;
+  width: 7%;
+  height: 7%;
+  margin-left: 3%;
+  margin-top: 0.7%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-1 .shop-list-1-1-1 span {
+  float: left;
+  cursor: pointer;
+  font-size: 12px;
+  color: #999;
+  margin-left: 3%;
+  margin-top: 0.7%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-1 .shop-list-1-1-2 {
+  width: 100%;
+  float: left;
+  margin-left: 4%;
+  margin-top: 1%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-1 .shop-list-1-1-2 img {
+  float: left;
+  width: 12%;
+  height: 12%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-1 .shop-list-1-1-2 p {
+  float: left;
+  font-size: 12px;
+  color: #333;
+  margin-left: 63%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-1 .shop-list-1-1-3 {
+  float: left;
+  width: 100%;
+  margin-left: 4%;
+  margin-top: 1%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-1 .shop-list-1-1-3 p {
+  float: left;
+  font-size: 12px;
+  color: #333;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-1 .shop-list-1-1-3 span {
+  float: left;
+  font-size: 12px;
+  color: #f7587e;
+  margin-left: 1%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-2 {
+  float: left;
+  width: 40%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-2 .shop-list-1-2-1 {
+  width: 100%;
+  margin-left: 8%;
+  /*display: none;*/
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-2 .shop-list-1-2-1 li {
+  float: left;
+  width: 18%;
+  margin-top: 3%;
+  margin-left: 5%;
+  border: 0;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-2 .shop-list-1-2-1 li img {
+  float: left;
+  width: 22%;
+  height: 22%;
+  margin-top: 2%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-2 .shop-list-1-2-1 li a {
+  float: left;
+  font-size: 12px;
+  color: #999;
+  margin-left: 5%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-2 .shop-list-1-2-1 li a:hover {
+  color: #f7587e;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-2 .shop-list-1-2-1 span {
+  float: left;
+  font-size: 12px;
+  color: #ccc;
+  margin-top: 3%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-2 .shop-list-1-2-2 {
+  float: left;
+  width: 100%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-2 .shop-list-1-2-2 img {
+  width: 22%;
+  margin-left: 55%;
+  margin-top: 3%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-2 .shop-list-1-2-3 {
+  float: left;
+  width: 100%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-2 .shop-list-1-2-3 a {
+  font-size: 12px;
+  color: #666;
+  margin-left: 55%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-2 .shop-list-1-2-3 a:hover {
+  color: blue;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-2 .shop-list-1-2-4 {
+  float: left;
+  width: 100%;
+  margin-top: -1%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-2 .shop-list-1-2-4 a {
+  font-size: 12px;
+  color: #666;
+  margin-left: 55%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-1 .shop-list-1-2 .shop-list-1-2-4 a:hover {
+  color: blue;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-2 {
+  float: left;
+  width: 80%;
+  height: 30%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-2 .shop-list-2-1 {
+  width: 100%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-2 .shop-list-2-1 p {
+  float: left;
+  font-size: 12px;
+  color: #f7587e;
+  cursor: pointer;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-2 .shop-list-2-1 a {
+  float: left;
+  font-size: 12px;
+  color: #999;
+}
+.shopsearch-con .shopsearch-con1 .shop-list li .shop-list-2 .shop-list-2-1 a:hover {
+  color: blue;
+}
+.shopsearch-con .shopsearch-con1 .Pages {
+  width: 100%;
+  float: left;
+  margin-left: 81%;
+  margin-top: 1%;
+}
+.shopsearch-con .shopsearch-con1 .Pages li {
+  float: left;
+  border: 1px solid #ccc;
+  width: 2%;
+  height: 2%;
+  margin-left: 0.3%;
+}
+.shopsearch-con .shopsearch-con1 .Pages li:hover {
+  border: 1px solid #d2ab95;
+}
+.shopsearch-con .shopsearch-con1 .Pages li a {
+  font-size: 12px;
+  color: #999;
+  padding: 2%;
+  margin-left: 28%;
+}
+.shopsearch-con .shopsearch-con1 .Pages .Pages1 {
+  border: 1px solid #d2ab95;
+  background: #d2ab95;
+}
+.shopsearch-con .shopsearch-con1 .Pages .Pages1 a {
+  color: #fff;
+}
+.shopsearch-con .shopsearch-con1 .Pages p {
+  float: left;
+  font-size: 12px;
+  color: #ccc;
+  margin: 0 1%;
+}
+.shopsearch-con .shopsearch-con1 .Pages span {
+  float: left;
+  font-size: 12px;
+  color: #ccc;
+  border: 1px solid #ccc;
+  width: 5%;
+  padding: 0.3%  0;
+}
+.shopsearch-con .shopsearch-con1 .Pages span:hover {
+  border: 1px solid #d2ab95;
+  background: #d2ab95;
+}
+.shopsearch-con .shopsearch-con1 .Pages span:hover a {
+  color: #fff;
+}
+.shopsearch-con .shopsearch-con1 .Pages span a {
+  margin-left: 10%;
+  font-size: 12px;
+  color: #999;
+}
+.shopsearch-con .shopsearch-con2 {
+  float: right;
+  width: 18%;
+  height: 70%;
+  min-height: 1px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  margin-top: 3%;
+}
+.shopsearch-con .shopsearch-con2 .shopsearch-con2-1 {
+  float: left;
+  width: 100%;
+  background: #eee;
+  height: 30%;
+}
+.shopsearch-con .shopsearch-con2 .shopsearch-con2-1 img {
+  float: left;
+  width: 10%;
+  padding: 4% 0;
+  margin-left: 5%;
+}
+.shopsearch-con .shopsearch-con2 .shopsearch-con2-1 b {
+  float: left;
+  font-size: 12px;
+  color: #333;
+  padding: 4% 0;
+  margin-left: 5%;
+}
+.shopsearch-con .shopsearch-con2 .shopsearch-con2-2 {
+  float: left;
+  width: 100%;
+}
+.shopsearch-con .shopsearch-con2 .shopsearch-con2-2 li {
+  float: left;
+  width: 100%;
+  height: 20%;
+  border-bottom: 1px dashed #ccc;
+  margin-top: 5%;
+}
+.shopsearch-con .shopsearch-con2 .shopsearch-con2-2 li img {
+  float: left;
+  width: 30%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.shopsearch-con .shopsearch-con2 .shopsearch-con2-2 li a {
+  float: left;
+  font-size: 12px;
+  color: #333;
+  font-weight: 900;
+  margin-left: 4%;
+  margin-top: 6%;
+}
+.shopsearch-con .shopsearch-con2 .shopsearch-con2-2 li a:hover {
+  color: blue;
+}
+.shopsearch-con .shopsearch-con2 .shopsearch-con2-2 li span {
+  float: left;
+  font-size: 12px;
+  color: #999;
+  margin-left: 4%;
+  margin-top: 2%;
+  cursor: pointer;
+}
+.shopsearch-con .shopsearch-con2 .shopsearch-con2-2 .shopsearch-con2-2-1 {
+  border: 0;
+}
+
+/*-------------------------------bottom-----------------------------*/
+#bottom {
+  width: 100%;
+  margin-top: 20px;
+  background: #eee;
+}
+#bottom #bottom1 {
+  width: 85%;
+  height: 60px;
+  padding: 30px 0;
+  margin: 0 auto;
+}
+#bottom #bottom1 ul {
+  float: left;
+  height: 16px;
+  margin-left: 120px;
+  margin-bottom: 15px;
+}
+#bottom #bottom1 ul li {
+  float: left;
+  padding: 0 7px;
+}
+#bottom #bottom1 ul li a {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+#bottom #bottom1 ul li a:hover {
+  color: #f65d29;
+}
+#bottom #bottom1 ul span {
+  float: left;
+  color: #ebebeb;
+  font-size: 12px;
+  margin-top: 3px;
+}
+#bottom #bottom1 p {
+  float: left;
+  width: 1190px;
+  height: 16px;
+  text-align: center;
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+/*----------------------------bottomFixed-------------------------------*/
+#bottomFixed {
+  /*display: none;*/
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  /*overflow: hidden;*/
+}
+#bottomFixed #bottomFixed1 {
+  position: absolute;
+  bottom: 0;
+  left: -1500px;
+  width: 100%;
+  /*display: none;*/
+}
+#bottomFixed #bottomFixed1 img {
+  width: 100%;
+}
+#bottomFixed #bottomFixed1 #bottomFixed1-1 {
+  position: absolute;
+  top: 23%;
+  left: 96%;
+  font-size: 36px;
+  color: #fff;
+  cursor: pointer;
+}
+#bottomFixed #bottomFixed2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 12%;
+}
+#bottomFixed #bottomFixed2 img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=liebiaoye.css.map */

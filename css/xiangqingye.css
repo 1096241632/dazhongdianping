@@ -1,0 +1,766 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/*-------------------------topNav------------------------*/
+#topNav {
+  width: 85%;
+  height: 35px;
+  margin: 0 auto;
+}
+#topNav #topNav1 {
+  float: left;
+  width: 90%;
+  height: 37px;
+  margin-left: 46%;
+}
+#topNav #topNav1 span {
+  float: left;
+  line-height: 35px;
+  color: #c7c7c7;
+  font-size: 12px;
+}
+#topNav #topNav1 .topNav1-1 {
+  float: left;
+  padding: 0 17px;
+  line-height: 37px;
+  cursor: pointer;
+  vertical-align: middle;
+  margin: 10px 0;
+  font-size: 12px;
+  color: #333;
+  margin-top: 0px;
+}
+#topNav #topNav1 .topNav1-1 a {
+  font-size: 12px;
+  color: #333;
+}
+#topNav #topNav1 .topNav1-1 a:hover {
+  color: #f65d29;
+}
+#topNav #topNav1 p {
+  float: left;
+  color: #f65d29;
+  font-size: 12px;
+  line-height: 37px;
+  padding-right: 17px;
+}
+#topNav #topNav1 p a {
+  font-size: 12px;
+  color: #f65d29;
+}
+#topNav #topNav1 .topNav1-2 {
+  position: relative;
+  float: left;
+  width: 9%;
+  line-height: 37px;
+  text-align: center;
+  cursor: pointer;
+  vertical-align: middle;
+  margin: 10px 0;
+  font-size: 12px;
+  color: #333;
+  margin-top: 0px;
+}
+#topNav #topNav1 .topNav1-2 a {
+  font-size: 12px;
+  color: #333;
+}
+#topNav #topNav1 .topNav1-2 a:hover {
+  color: #f65d29;
+}
+#topNav #topNav1 .topNav1-2:hover {
+  color: #f65d29;
+  background: #fff;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#topNav #topNav1 .topNav1-2:hover .topNav2 {
+  display: block;
+  background: #fff;
+}
+#topNav #topNav1 .topNav1-2 img {
+  position: relative;
+  top: 0;
+  left: 8px;
+  width: 10%;
+  height: 10%;
+}
+#topNav #topNav1 .topNav1-2 .topNav2 {
+  display: none;
+  position: relative;
+  top: -6px;
+  left: 0;
+  width: 96px;
+  z-index: 99999;
+}
+#topNav #topNav1 .topNav1-2 .topNav2 li {
+  padding-right: 17px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+#topNav #topNav1 .topNav1-2 .topNav2 li:hover {
+  background: #f0f0f0;
+}
+#topNav #topNav1 .topNav1-2 .topNav2 li a {
+  font-size: 12px;
+  color: #333;
+}
+#topNav #topNav1 .topNav1-2 .topNav2 li a:hover {
+  color: #f65d29;
+}
+
+/*-----------------------headerContainer---------------------*/
+#headerContainer {
+  width: 100%;
+  background: #fff;
+  border-bottom: 2px solid #FF6585;
+}
+#headerContainer #headerContainer1 {
+  top: 0;
+  width: 84%;
+  height: 93px;
+  margin: 0 auto;
+}
+#headerContainer #headerContainer1 #logo {
+  float: left;
+  width: 16%;
+  height: 53%;
+  margin-top: 28px;
+}
+#headerContainer #headerContainer1 #logo img {
+  width: 100%;
+  height: 72%;
+}
+#headerContainer #headerContainer1 #address {
+  position: relative;
+  float: left;
+  margin-left: 30px;
+  cursor: pointer;
+  background: #fff;
+  z-index: 999999;
+}
+#headerContainer #headerContainer1 #address:hover #address1 {
+  display: block;
+}
+#headerContainer #headerContainer1 #address span {
+  float: left;
+  font-size: 15px;
+  color: #333;
+  margin-right: 5px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+#headerContainer #headerContainer1 #address p {
+  float: left;
+  font-size: 15px;
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+#headerContainer #headerContainer1 #address p:hover {
+  color: #f63;
+}
+#headerContainer #headerContainer1 #address #address1 {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 1026%;
+  background: #fff;
+  height: 400px;
+  z-index: 999999;
+  border: 1px solid #ccc;
+  border-top: 0px;
+  display: none;
+}
+#headerContainer #headerContainer1 #address #address1 .address2 {
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  border-bottom: 1px solid #ccc;
+}
+#headerContainer #headerContainer1 #address #address1 .address2 h4 {
+  float: left;
+  font-size: 12px;
+  color: #ccc;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+#headerContainer #headerContainer1 #address #address1 .address2 li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 33px;
+  margin-top: 5px;
+}
+#headerContainer #headerContainer1 #address #address1 .address2 li a {
+  font-size: 12px;
+  color: #333;
+}
+#headerContainer #headerContainer1 #address #address1 .address2 li a:hover {
+  color: #f63;
+}
+#headerContainer #headerContainer1 #address #address1 .address3 {
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  /*border-bottom: 1px solid #ccc;*/
+}
+#headerContainer #headerContainer1 #address #address1 .address3 h4 {
+  float: left;
+  font-size: 12px;
+  color: #ccc;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+#headerContainer #headerContainer1 #address #address1 .address3 li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 33px;
+  margin-top: 5px;
+}
+#headerContainer #headerContainer1 #address #address1 .address3 li a {
+  font-size: 12px;
+  color: #333;
+}
+#headerContainer #headerContainer1 #address #address1 .address3 li a:hover {
+  color: #f63;
+}
+#headerContainer #headerContainer1 #search {
+  float: left;
+  width: 47%;
+  height: 75px;
+  margin-left: 100px;
+  margin-top: 28px;
+}
+#headerContainer #headerContainer1 #search #search0 {
+  height: 36px;
+  float: left;
+  border: 2px solid #FF6585;
+  width: 100%;
+}
+#headerContainer #headerContainer1 #search #search0 input {
+  float: left;
+  width: 75%;
+  height: 36px;
+  color: #ccc;
+  font-size: 12px;
+  border: none;
+  padding-left: 10px;
+}
+#headerContainer #headerContainer1 #search #search0 #search1 {
+  cursor: pointer;
+  float: right;
+  width: 23%;
+  height: 36px;
+  font-size: 16px;
+  color: #fff;
+  background: #FF6585;
+  line-height: 36px;
+  text-align: center;
+}
+#headerContainer #headerContainer1 #search #search2 {
+  float: left;
+  margin-top: 5px;
+}
+#headerContainer #headerContainer1 #search #search2 h4 {
+  float: left;
+  font-size: 12px;
+  color: #ccc;
+}
+#headerContainer #headerContainer1 #search #search2 li {
+  float: left;
+  font-size: 12px;
+  color: #999;
+  margin-left: 10px;
+}
+#headerContainer #headerContainer1 #search #search2 li a {
+  font-size: 12px;
+  color: #999;
+}
+#headerContainer #headerContainer1 #search #search2 li a:hover {
+  color: #f65d29;
+}
+#headerContainer #classification {
+  width: 83%;
+  height: 45px;
+  margin: 0 auto;
+}
+#headerContainer #classification #classification1 {
+  /*float: left;*/
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 20%;
+}
+#headerContainer #classification #classification1:hover #classification1-1 {
+  display: block;
+}
+#headerContainer #classification #classification1 h3 {
+  float: left;
+  width: 88%;
+  height: 35px;
+  color: #fff;
+  background: #FF6585;
+  font-size: 15px;
+  line-height: 35px;
+  text-align: center;
+}
+#headerContainer #classification #classification1 #classification1-1 {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 88%;
+  height: 135px;
+  background: #fff;
+  border: 1px solid #ccc;
+  display: none;
+}
+#headerContainer #classification #classification1 #classification1-1 #ef {
+  width: 100%;
+  height: 5px;
+}
+#headerContainer #classification #classification1 #classification1-1 li {
+  width: 100%;
+  height: 32px;
+}
+#headerContainer #classification #classification1 #classification1-1 li:hover {
+  background: #eee;
+}
+#headerContainer #classification #classification1 #classification1-1 li:hover .tabulation {
+  display: block;
+}
+#headerContainer #classification #classification1 #classification1-1 li h4 {
+  float: left;
+  margin-left: 20px;
+}
+#headerContainer #classification #classification1 #classification1-1 li h4 a {
+  font-size: 15px;
+  color: #333;
+  line-height: 32px;
+}
+#headerContainer #classification #classification1 #classification1-1 li h4 a:hover {
+  color: #f63;
+}
+#headerContainer #classification #classification1 #classification1-1 li p {
+  float: left;
+  margin-left: 15px;
+}
+#headerContainer #classification #classification1 #classification1-1 li p a {
+  font-size: 12px;
+  color: #999;
+  line-height: 32px;
+}
+#headerContainer #classification #classification1 #classification1-1 li p a:hover {
+  color: #f63;
+}
+#headerContainer #classification #classification1 #classification1-1 li span {
+  float: left;
+  margin-left: 15px;
+}
+#headerContainer #classification #classification1 #classification1-1 li span a {
+  font-size: 12px;
+  color: #999;
+  line-height: 32px;
+}
+#headerContainer #classification #classification1 #classification1-1 li span a:hover {
+  color: #f63;
+}
+#headerContainer #classification #classification2 {
+  float: left;
+}
+#headerContainer #classification #classification2 li {
+  float: left;
+  line-height: 35px;
+  margin-left: 50px;
+}
+#headerContainer #classification #classification2 li a {
+  font-size: 15px;
+  color: #333;
+  font-weight: 900;
+}
+#headerContainer #classification #classification2 li a:hover {
+  color: #f63;
+}
+
+/*-----------------------FullAddress----------------------*/
+.FullAddress {
+  width: 100%;
+  margin: 1% 0;
+}
+.FullAddress .FullAddress1 {
+  margin: 0 auto;
+  width: 84%;
+}
+.FullAddress .FullAddress1 li {
+  float: left;
+  font-size: 12px;
+  color: #333;
+  margin-right: 5px;
+}
+.FullAddress .FullAddress1 li a {
+  font-size: 12px;
+  color: #426CFE;
+}
+.FullAddress .FullAddress1 span {
+  float: left;
+  font-size: 12px;
+  color: #666;
+  margin: 0 5px;
+}
+
+/*-------------------------conversion----------------------*/
+.conversion {
+  width: 100%;
+  min-width: 1px;
+  overflow: hidden;
+  margin-top: 3%;
+}
+.conversion .tabconversion {
+  width: 84%;
+  min-width: 1px;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+.conversion .tabconversion .tabconversion1 {
+  float: left;
+  width: 36%;
+  height: 30%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.conversion .tabconversion .tabconversion1 .tabconversion1-1 {
+  float: left;
+  width: 100%;
+  height: 80%;
+}
+.conversion .tabconversion .tabconversion1 .tabconversion1-1 img {
+  width: 100%;
+  height: 100%;
+}
+.conversion .tabconversion .tabconversion1 .tabconversion1-2 {
+  float: left;
+  width: 100%;
+  height: 30%;
+  margin-top: 2%;
+}
+.conversion .tabconversion .tabconversion1 .tabconversion1-2 .tabconversion1-2-1 {
+  width: 100%;
+  height: 100%;
+}
+.conversion .tabconversion .tabconversion1 .tabconversion1-2 .tabconversion1-2-1 li {
+  float: left;
+  width: 20%;
+  height: 20%;
+  margin-right: 1%;
+}
+.conversion .tabconversion .tabconversion1 .tabconversion1-2 .tabconversion1-2-1 li img {
+  width: 100%;
+  height: 100%;
+}
+.conversion .tabconversion .tabconversion2 {
+  float: left;
+  width: 35%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-1 {
+  width: 100%;
+  float: left;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-1 h2 {
+  float: left;
+  font-size: 24px;
+  color: #333;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-1 a {
+  float: left;
+  font-size: 12px;
+  color: #333;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-2 {
+  float: left;
+  width: 100%;
+  margin-top: 3%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-2 .tabconversion2-2-1 {
+  width: 100%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-2 .tabconversion2-2-1 li {
+  float: left;
+  font-size: 12px;
+  color: #999;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-2 .tabconversion2-2-1 li img {
+  width: 65%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-2 .tabconversion2-2-1 li a {
+  font-size: 12px;
+  color: #999;
+  margin-left: -30%;
+  margin-right: 2%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-2 .tabconversion2-2-1 li a:hover {
+  color: #f63;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-3 {
+  float: left;
+  width: 100%;
+  margin-top: 2%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-3 span {
+  float: left;
+  font-size: 14px;
+  color: #111;
+  margin-bottom: 5%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-3 p {
+  /*float: left;*/
+  font-size: 14px;
+  color: #111;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-4 {
+  float: left;
+  width: 100%;
+  margin-top: 2%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-4 a {
+  font-size: 12px;
+  color: #38b;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-5 {
+  float: left;
+  width: 100%;
+  margin-top: 2%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-5 .tabconversion2-5-1 {
+  width: 100%;
+  min-height: 1px;
+  overflow: hidden;
+  border: 1px solid #fff4bf;
+  background: #fffced;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-5 .tabconversion2-5-1 li {
+  float: left;
+  margin: 2%;
+  width: 40%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-5 .tabconversion2-5-1 li p {
+  float: left;
+  color: #ff648a;
+  font-size: 12px;
+  border: 1px solid #ff648a;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-5 .tabconversion2-5-1 li span {
+  float: left;
+  font-size: 12px;
+  color: #333;
+  margin-left: 6%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-6 {
+  float: left;
+  width: 100%;
+  margin-top: 2%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-6 .tabconversion2-6-1 {
+  float: left;
+  width: 35%;
+  margin-top: 5%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-6 .tabconversion2-6-1 a {
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid #FF6687;
+  background: #FF6687;
+  border-radius: 4px;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-6 .tabconversion2-6-2 {
+  float: left;
+  width: 32%;
+  margin-top: 5%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-6 .tabconversion2-6-2 a {
+  font-size: 16px;
+  color: #FF6687;
+  border: 1px solid #FF6687;
+  background: #fff;
+  border-radius: 4px;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-6 .tabconversion2-6-3 {
+  float: left;
+  width: 30%;
+  margin-top: 4%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-6 .tabconversion2-6-3 li {
+  float: left;
+  margin-right: 4%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-6 .tabconversion2-6-3 li a span {
+  font-size: 25px;
+  color: #ccc;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-6 .tabconversion2-6-3 li a span:hover {
+  color: #f63;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-7 {
+  width: 100%;
+  float: left;
+  margin-top: 8%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-7 .tabconversion2-7-1 {
+  width: 100%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-7 .tabconversion2-7-1 li {
+  float: left;
+  margin-right: 5%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-7 .tabconversion2-7-1 li img {
+  float: left;
+  width: 10%;
+}
+.conversion .tabconversion .tabconversion2 .tabconversion2-7 .tabconversion2-7-1 li p {
+  float: left;
+  font-size: 12px;
+  color: #333;
+}
+.conversion .tabconversion .tabconversion3 {
+  position: relative;
+  top: 0;
+  left: 83%;
+  width: 17%;
+  height: 30%;
+}
+.conversion .tabconversion .tabconversion3 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.conversion .tabconversion .tabconversion3 .tabconversion3-1 {
+  position: absolute;
+  top: 21%;
+  left: 38%;
+}
+.conversion .tabconversion .tabconversion3 .tabconversion3-1 li {
+  font-size: 12px;
+  color: #333;
+  margin-bottom: 23%;
+}
+.conversion .tabconversion .tabconversion3 .tabconversion3-1 span {
+  width: 100%;
+  height: 30%;
+  background: #fdfdfa;
+  margin-top: 10%;
+}
+
+/*-------------------------------bottom-----------------------------*/
+#bottom {
+  width: 100%;
+  margin-top: 10%;
+  background: #eee;
+}
+#bottom #bottom1 {
+  width: 85%;
+  height: 60px;
+  padding: 30px 0;
+  margin: 0 auto;
+}
+#bottom #bottom1 ul {
+  float: left;
+  height: 16px;
+  margin-left: 120px;
+  margin-bottom: 15px;
+}
+#bottom #bottom1 ul li {
+  float: left;
+  padding: 0 7px;
+}
+#bottom #bottom1 ul li a {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+#bottom #bottom1 ul li a:hover {
+  color: #f65d29;
+}
+#bottom #bottom1 ul span {
+  float: left;
+  color: #ebebeb;
+  font-size: 12px;
+  margin-top: 3px;
+}
+#bottom #bottom1 p {
+  float: left;
+  width: 1190px;
+  height: 16px;
+  text-align: center;
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+/*----------------------------bottomFixed-------------------------------*/
+#bottomFixed {
+  /*display: none;*/
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  /*overflow: hidden;*/
+}
+#bottomFixed #bottomFixed1 {
+  position: absolute;
+  bottom: 0;
+  left: -1500px;
+  width: 100%;
+  /*display: none;*/
+}
+#bottomFixed #bottomFixed1 img {
+  width: 100%;
+}
+#bottomFixed #bottomFixed1 #bottomFixed1-1 {
+  position: absolute;
+  top: 23%;
+  left: 96%;
+  font-size: 36px;
+  color: #fff;
+  cursor: pointer;
+}
+#bottomFixed #bottomFixed2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 12%;
+}
+#bottomFixed #bottomFixed2 img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=xiangqingye.css.map */
